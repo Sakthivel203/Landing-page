@@ -1,0 +1,211 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+    box-shadow: 1px 1px 50px 1px black;
+    background-color: rgb(228, 228, 228);
+    position:fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+.ecom-logo{
+    width: 60px;
+    padding: 5px;
+    border-radius: 100%;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    margin-left: 10px ;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(33, 33, 105);
+}
+.ecom-logo-container{
+    flex: 1.5;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.nav-search div input{
+    font-size: 20px;
+    padding: 5px 140px 5px 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.nav-search div button{
+    margin-left: -2px;
+    border: 2px bold black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.nav-search div button img{
+    width: 49px;
+    height: 40px;
+    padding: 1px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-login{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.nav-login div img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.nav-login-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ecom-logo-container{
+    display: flex;
+}
+
+/* .card-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid ;
+    width: 300px;
+}
+.card-img{
+    width: 100px;
+}
+.card-img img{
+    width: 290px;
+    padding: 10px;
+} */
+.space{
+    height: 70px;
+}
+
+.card:hover{
+    box-shadow: 0px 3px 20px 1px black;
+    transform: translateY(-10px);
+    transition: ease-in-out 0.5s;
+}
+.card-rate{
+    display: flex;
+    flex-direction: row;
+}
+.card-new-rate{
+    font-weight: bolder;
+    font-size: 23px;
+    color: rgb(255, 187, 0);
+}
+.card-old-rate{
+    padding: 6px 0 0 15px ;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: gray;
+}
+.card-text{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 15px;
+    padding-bottom: 10px;
+}
+.card-btn{
+    display: flex;
+    flex-direction: row;
+    font-size: 5px;
+    justify-content: space-around;
+}
+.card-btn a:hover{
+    background: linear-gradient(45deg,rgb(255, 42, 0),rgb(255, 132, 0));
+}
+.card-btn a{
+    background: linear-gradient(45deg,rgb(255, 132, 0),rgb(255, 42, 0));
+    border: none;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.carousel-inner div img {
+    width:640px;
+    height:700px;
+  }
+
+.advantage-container{
+    display: flex;
+    flex-direction: row;
+    padding: 60px 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.advantage-container div div img{
+    margin-bottom: 15px;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 10px;
+}
+.partners marquee img {
+    width: 200px;
+    height: 100px;
+    margin: 0px 50px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(33, 37, 41);
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.footer-head{
+    font-weight: bolder;
+    color: orange;
+    padding: 20px 0px;
+
+}
+.media-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 500px; 
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.media-icon div img{
+    width: 40px;
+}
+
